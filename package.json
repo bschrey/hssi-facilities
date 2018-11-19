@@ -1,0 +1,24 @@
+{
+  "name": "facilities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "MONGODB_URI=mongodb://localhost:27017/facility node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bschrey/hssi-facilities.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bschrey/hssi-facilities/issues"
+  },
+  "homepage": "https://github.com/bschrey/hssi-facilities#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.12"
+  }
+}
