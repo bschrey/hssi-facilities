@@ -1,3 +1,4 @@
+const {mongoose} = require('../db/mongoose');
 const Facility = require('../models/facility.js');
 
 exports.create = (req, res) => {

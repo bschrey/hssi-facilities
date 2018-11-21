@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "MONGODB_URI=mongodb://localhost:27017/facility node ./server.js"
+    "start": "PORT=5000 MONGODB_URI=mongodb://localhost:27017/facility node ./server.js"
   },
   "repository": {
     "type": "git",
