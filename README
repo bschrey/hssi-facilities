@@ -1,0 +1,4 @@
+docker run -d -p 5000:5000 --network hssi-backend --name hssi-facilities bschrey/hssi-facilities:1.0.0
+
+docker start hssi-facilities
+docker stop hssi-facilities
